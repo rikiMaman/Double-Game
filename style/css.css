@@ -1,0 +1,218 @@
+
+body{
+    background-image: url("../pictures/back_ground.jpeg");
+    background-size: 100%;
+}
+#logo {
+    width: 25vw;
+    height: 42vh;
+    margin: 0 15%;
+    margin-left: 0;
+}
+.home .links {
+    display: flex;
+    flex-direction: row;
+    margin: 0 40%;
+}
+.home .links img {
+    width: 85%;
+}
+
+#input_name {
+    width: 10vw;
+    height: 5vh;
+}
+.home .enter_game
+{
+    transition: all 0.5s ease;
+}
+.home .logo img {
+    width: 40vw;
+    margin: 0 32%;
+}
+/* כרטיסים */
+#a, #b {
+    display: block;
+    /* justify-content: space-between; */
+    margin: 10vh 22vw;
+    border: 10px solid rgb(202, 40, 40);
+    height: 30vw;
+    width: 30vw;
+    border-radius: 850px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+}
+#circles{
+    display: inline-flex;
+    flex-direction: row;
+}
+/* כרטיס שני*/
+#b {
+    margin-left: 60vw;
+}
+.imgs{
+    margin-left: 12%;
+    margin-top: 12%;
+    width: 7%;
+    height: 5%;
+}
+/* בעת מעבר על כרטיסים */
+.imgs:hover{
+    transform: scalex(-1);
+}
+#score {
+    font-weight: bolder;
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+#timer {
+    width: fit-content;
+    margin: -6% auto;
+    font-size: 433%;
+    font-weight: bolder;
+    position: relative;
+}
+.hidden,
+.hidden * {
+    visibility: hidden;
+    position: absolute !important;
+    height: 0px;
+    width: 0px;
+}
+#circles, #score, #timer{
+    display: none;
+} 
+#timer {
+    width: fit-content;
+    margin: -6% auto;
+    font-size: 433%;
+    font-weight: bolder;
+    position: relative;
+}
+#logo{
+    rotate: 340deg;
+    display: flex;
+    margin-top: 0%;
+}
+.logo{
+    width: 25vw;
+    height: 22vw;
+    margin-left: 12%;
+}
+.container.user {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    width: 30vw;
+    height: 10vh;
+    margin-left: 32%;
+    margin-top: 18%;
+}
+.container.user form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container.play {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    width: 30vw;
+    height: 10vh;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+.img {
+    position: absolute;
+    width: auto;
+}
+.img:nth-child(1) {
+    top: 25.3%;
+    right: 66%;
+    height: 32%;
+    rotate: 80deg;
+}
+
+.img:nth-child(10) {
+    top: 23.3%;
+    right: 63%;
+    height: 32%;
+    rotate: 110deg;
+}
+
+.img:nth-child(2) {
+    top: 57%;
+    right: 70%;
+    height: 21.27%;
+    rotate: -71deg;
+}
+
+.img:nth-child(3) {
+    top: 58%;
+    right: 8.7%;
+    height: 23.5%;
+    rotate: 205deg;
+}
+
+.img:nth-child(4) {
+    top: 47.4%;
+    right: 34.3%;
+    height: 33%;
+    rotate: 192deg;
+}
+
+.img:nth-child(5) {
+    top: 5%;
+    right: 51%;
+    height: 20%;
+}
+
+.img:nth-child(6) {
+    top: 5%;
+    right: 21%;
+    height: 25%;
+    rotate: 26deg;
+}
+
+.img:nth-child(7) {
+    top: 27.4%;
+    right: 42.4%;
+    height: 16%;
+}
+
+.img:nth-child(8) {
+    top: 31%;
+    right: 5.6%;
+    height: 25%;
+    rotate: -64deg;
+}
+.img:nth-child(9) {
+    top: 79.5%;
+    right: 49%;
+    height: 18.5%;
+    rotate: 12deg;
+}
+/* .img{
+    height: 6%;
+    width: 4%;
+} */
+a .enter_game{
+    margin: 75% 45%;
+    width: 25%;
+}
+#logo_in_home{
+    width: 40%;
+    margin-left: 10%;
+}
+.home_container{
+    margin-right: 14%;
+    align-items: center;
+    text-align: center;
+}
+.to_home{
+    margin-left: 42%;
+    width: 20%;
+}
